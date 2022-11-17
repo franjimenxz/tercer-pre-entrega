@@ -1,0 +1,11 @@
+$backs: #ffbb01;
+footer {
+	background: $backs;
+	position: absolute bottom 0;
+}
+.footer {
+	p {
+		color: $color_2;
+		text-align: center;
+	}
+}

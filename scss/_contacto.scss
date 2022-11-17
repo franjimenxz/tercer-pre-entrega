@@ -1,0 +1,33 @@
+@import 'variables';
+@mixin size-map($w, $h) {
+    width: $w;
+	height: $h;
+}
+.mapa {
+	background: url(../img/map.png);
+	@include size-map(100%, 500px);
+}
+.wrapper-local {
+	width: 50%;
+	margin-left: 100px;
+	padding-top: 150px;
+}
+#bg-contactos {
+	position: relative;
+	top: -130px;
+	top: -120px;
+}
+#seccion-contacto {
+	background-color: $background-color_2;
+	min-height: 500px;
+	position: relative;
+}
+#contenedor-formulario {
+	position: relative;
+	top: 10px;
+	left: 0%;
+	background: #fbfafa;
+}
+#titulo-formulario {
+	color: $color_1;
+}
